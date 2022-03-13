@@ -10,7 +10,6 @@ Especificações obrigatórias
 
 * Consumir o endpoint https://app.olimpiadas.app/teste e listar o resultado.
 * Ser responsivo
-* Utilizar typescript
 
 **Especificações adicionais**
 
@@ -20,6 +19,8 @@ As especificações a seguir não são obrigatórias, mas contam pontos extras:
 * Ter HTML semântico
 * Fazer correta tipagem dos dados
 * Utilizar axios ou react-query
+* Utilizar typescript
+
 
 
 **ENTREGA**
