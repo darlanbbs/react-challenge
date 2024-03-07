@@ -28,7 +28,7 @@ const Card = () => {
   }, []);
 
   return (
-    <div style={{ flexGrow: 1, padding: "16px" }}>
+    <div style={{ flexGrow: 1, padding: "16px" }} className="card">
       <Grid container spacing={2}>
         {data.map((item: Item) => (
           <ItemCard key={item.id} item={item} />
