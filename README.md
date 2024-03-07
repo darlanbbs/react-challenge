@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# react-challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**OBJETIVO**
 
-Currently, two official plugins are available:
+Implementar um web app simples utilizando ReactJS que consuma uma API e permita mostrar a informação em tela.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**ESPECIFICAÇÕES**
 
-## Expanding the ESLint configuration
+Especificações obrigatórias
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* Consumir o endpoint https://app.olimpiadas.app/teste e listar o resultado.
+* Ser responsivo
 
-- Configure the top-level `parserOptions` property like this:
+**Especificações adicionais**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+As especificações a seguir não são obrigatórias, mas contam pontos extras:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+* Pode ser usado frameworks como MUI, Bootstrap
+* Ter HTML semântico
+* Fazer correta tipagem dos dados
+* Utilizar axios ou react-query
+* Utilizar typescript
+
+
+
+**ENTREGA**
+
+O projeto do desafio técnico deve ser entregue nos seguintes formatos:
+
+* Repositório hospedado (Github, Gitlab, Bitbucket ou similares)
+* Envie a informação através do formulário https://forms.gle/5Ews39APnNGhJ1ce7
+
+
+
